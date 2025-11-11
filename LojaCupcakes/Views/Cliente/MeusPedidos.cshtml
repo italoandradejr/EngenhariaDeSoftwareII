@@ -1,0 +1,66 @@
+﻿@model IEnumerable<LojaCupcakes.Models.Pedido>
+@{
+    ViewData["Title"] = "Meus Pedidos";
+}
+
+<h1>@ViewData["Title"] (HU06)</h1>
+<hr />
+
+@if (Model == null || !Model.Any())
+{
+    <p>Você ainda não fez nenhum pedido.</p>
+}
+else
+{
+    @foreach (var pedido in Model)
+    {
+        <div class="card mb-3">
+            <div class="card-header">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <strong>Pedido #@pedido.Id</strong>
+                    </div>
+                    <div>
+                        <strong>Data:</strong> @pedido.DataPedido.ToString("dd/MM/yyyy")
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-body">
+                <table class="table table-sm table-striped">
+                    <thead>
+                        <tr>
+                            <th>Produto</th>
+                            <th>Preço Unitário</th>
+                            <th>Quantidade</th>
+                            <th>Subtotal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in pedido.ItensPedido)
+                        {
+                            <tr>
+                                <td>@item.Cupcake?.Nome</td>
+                                <td>@item.PrecoUnitario.ToString("C")</td>
+                                <td>@item.Quantidade</td>
+                                <td>@((item.PrecoUnitario * item.Quantidade).ToString("C"))</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="card-footer">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <strong>Status:</strong> <span class="badge bg-info text-dark">@pedido.Status</span>
+                    </div>
+                    <div class="text-end">
+                        <strong>Total do Pedido:</strong>
+                        <span class="text-success h5">@pedido.ValorTotal.ToString("C")</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}

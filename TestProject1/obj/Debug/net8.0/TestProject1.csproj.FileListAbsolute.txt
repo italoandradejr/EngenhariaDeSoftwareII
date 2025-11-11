@@ -1,0 +1,5 @@
+C:\Users\italo.silva\Documents\CSharp\ProjFaculdade\LojaCupcakes\TestProject1\obj\Debug\net8.0\TestProject1.csproj.AssemblyReference.cache
+C:\Users\italo.silva\Documents\CSharp\ProjFaculdade\LojaCupcakes\TestProject1\obj\Debug\net8.0\TestProject1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\italo.silva\Documents\CSharp\ProjFaculdade\LojaCupcakes\TestProject1\obj\Debug\net8.0\TestProject1.AssemblyInfoInputs.cache
+C:\Users\italo.silva\Documents\CSharp\ProjFaculdade\LojaCupcakes\TestProject1\obj\Debug\net8.0\TestProject1.AssemblyInfo.cs
+C:\Users\italo.silva\Documents\CSharp\ProjFaculdade\LojaCupcakes\TestProject1\obj\Debug\net8.0\TestProject1.csproj.CoreCompileInputs.cache

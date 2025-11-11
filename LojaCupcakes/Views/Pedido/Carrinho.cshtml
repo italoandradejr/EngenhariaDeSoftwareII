@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Meu Carrinho";
+}
+
+<h1>@ViewData["Title"]</h1>
+<p>Este é o resumo da sua compra (HU08).</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Produto</th>
+            <th>Preço</th>
+            <th>Quantidade</th>
+            <th>Subtotal</th>
+            <th>Ação</th>
+        </tr>
+    </thead>
+    <tbody id="cart-table-body">
+    </tbody>
+</table>
+
+<hr />
+
+<div class="text-end">
+    <h3>Total: <span id="cart-total" class="text-success">R$ 0,00</span></h3>
+</div>
+
+<div class="text-end mt-3">
+    @if (User.Identity.IsAuthenticated)
+    {
+        <button id="btn-finalizar" class="btn btn-primary btn-lg">Finalizar Pedido</button>
+    }
+    else
+    {
+        <a asp-controller="Cliente" asp-action="Login" class="btn btn-warning btn-lg">
+            Faça login para finalizar o pedido
+        </a>
+    }
+</div>
+
+@section Scripts {
+}

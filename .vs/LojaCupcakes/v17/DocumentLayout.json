@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\italo.silva\\Documents\\CSharp\\ProjFaculdade\\LojaCupcakes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D7A0C6A-B7CA-4DF9-BB4A-61BAE9200AE3}|LojaCupcakes\\LojaCupcakes.csproj|c:\\users\\italo.silva\\documents\\csharp\\projfaculdade\\lojacupcakes\\lojacupcakes\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D7A0C6A-B7CA-4DF9-BB4A-61BAE9200AE3}|LojaCupcakes\\LojaCupcakes.csproj|solutionrelative:lojacupcakes\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D7A0C6A-B7CA-4DF9-BB4A-61BAE9200AE3}|LojaCupcakes\\LojaCupcakes.csproj|c:\\users\\italo.silva\\documents\\csharp\\projfaculdade\\lojacupcakes\\lojacupcakes\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D7A0C6A-B7CA-4DF9-BB4A-61BAE9200AE3}|LojaCupcakes\\LojaCupcakes.csproj|solutionrelative:lojacupcakes\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D7A0C6A-B7CA-4DF9-BB4A-61BAE9200AE3}|LojaCupcakes\\LojaCupcakes.csproj|c:\\users\\italo.silva\\documents\\csharp\\projfaculdade\\lojacupcakes\\lojacupcakes\\views\\admin\\gerenciarpedidos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D7A0C6A-B7CA-4DF9-BB4A-61BAE9200AE3}|LojaCupcakes\\LojaCupcakes.csproj|solutionrelative:lojacupcakes\\views\\admin\\gerenciarpedidos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D7A0C6A-B7CA-4DF9-BB4A-61BAE9200AE3}|LojaCupcakes\\LojaCupcakes.csproj|c:\\users\\italo.silva\\documents\\csharp\\projfaculdade\\lojacupcakes\\lojacupcakes\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D7A0C6A-B7CA-4DF9-BB4A-61BAE9200AE3}|LojaCupcakes\\LojaCupcakes.csproj|solutionrelative:lojacupcakes\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5348E03F-A14A-4FFF-860B-1D692639F143}|LojaCupcakes.Tests\\LojaCupcakes.Tests.csproj|c:\\users\\italo.silva\\documents\\csharp\\projfaculdade\\lojacupcakes\\lojacupcakes.tests\\cupcakemodeltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5348E03F-A14A-4FFF-860B-1D692639F143}|LojaCupcakes.Tests\\LojaCupcakes.Tests.csproj|solutionrelative:lojacupcakes.tests\\cupcakemodeltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PedidoController.cs",
+              "DocumentMoniker": "C:\\Users\\italo.silva\\Documents\\CSharp\\ProjFaculdade\\LojaCupcakes\\LojaCupcakes\\Controllers\\PedidoController.cs",
+              "RelativeDocumentMoniker": "LojaCupcakes\\Controllers\\PedidoController.cs",
+              "ToolTip": "C:\\Users\\italo.silva\\Documents\\CSharp\\ProjFaculdade\\LojaCupcakes\\LojaCupcakes\\Controllers\\PedidoController.cs",
+              "RelativeToolTip": "LojaCupcakes\\Controllers\\PedidoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T20:06:20.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\italo.silva\\Documents\\CSharp\\ProjFaculdade\\LojaCupcakes\\LojaCupcakes\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LojaCupcakes\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\italo.silva\\Documents\\CSharp\\ProjFaculdade\\LojaCupcakes\\LojaCupcakes\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LojaCupcakes\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T16:12:09.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GerenciarPedidos.cshtml",
+              "DocumentMoniker": "C:\\Users\\italo.silva\\Documents\\CSharp\\ProjFaculdade\\LojaCupcakes\\LojaCupcakes\\Views\\Admin\\GerenciarPedidos.cshtml",
+              "RelativeDocumentMoniker": "LojaCupcakes\\Views\\Admin\\GerenciarPedidos.cshtml",
+              "ToolTip": "C:\\Users\\italo.silva\\Documents\\CSharp\\ProjFaculdade\\LojaCupcakes\\LojaCupcakes\\Views\\Admin\\GerenciarPedidos.cshtml",
+              "RelativeToolTip": "LojaCupcakes\\Views\\Admin\\GerenciarPedidos.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAwwE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T16:11:37.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\italo.silva\\Documents\\CSharp\\ProjFaculdade\\LojaCupcakes\\LojaCupcakes\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "LojaCupcakes\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\italo.silva\\Documents\\CSharp\\ProjFaculdade\\LojaCupcakes\\LojaCupcakes\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "LojaCupcakes\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAADwv3gAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T16:08:29.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CupcakeModelTests.cs",
+              "DocumentMoniker": "C:\\Users\\italo.silva\\Documents\\CSharp\\ProjFaculdade\\LojaCupcakes\\LojaCupcakes.Tests\\CupcakeModelTests.cs",
+              "RelativeDocumentMoniker": "LojaCupcakes.Tests\\CupcakeModelTests.cs",
+              "ToolTip": "C:\\Users\\italo.silva\\Documents\\CSharp\\ProjFaculdade\\LojaCupcakes\\LojaCupcakes.Tests\\CupcakeModelTests.cs",
+              "RelativeToolTip": "LojaCupcakes.Tests\\CupcakeModelTests.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA5wBIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T15:20:17.344Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

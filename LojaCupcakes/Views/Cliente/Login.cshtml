@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+
+<h1>@ViewData["Title"]</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <section>
+            <form asp-action="Login" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                @if (ViewData["Erro"] != null)
+                {
+                    <div class="alert alert-danger">@ViewData["Erro"]</div>
+                }
+
+                <div class="form-floating mb-2">
+                    <input name="email" class="form-control" autocomplete="username" aria-required="true" />
+                    <label for="email" class="form-label">Email</label>
+                </div>
+                <div class="form-floating mb-2">
+                    <input name="senha" type="password" class="form-control" autocomplete="current-password" aria-required="true" />
+                    <label for="senha" class="form-label">Senha</label>
+                </div>
+                <div>
+                    <button type="submit" class="w-100 btn btn-lg btn-primary">Entrar</button>
+                </div>
+                <div class="mt-2">
+                    <p>
+                        <a asp-action="Cadastro">Ainda não tem conta? Cadastre-se</a>
+                    </p>
+                </div>
+            </form>
+        </section>
+    </div>
+</div>
