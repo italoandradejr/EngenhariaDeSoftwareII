@@ -10,15 +10,13 @@ namespace LojaCupcakes.Models
 
         [Required]
         public int PedidoId { get; set; }
-
-        // Propriedade de Navegação: Link para o Pedido
+                
         [ForeignKey("PedidoId")]
         public Pedido? Pedido { get; set; }
 
         [Required]
         public int CupcakeId { get; set; }
-
-        // Propriedade de Navegação: Link para o Cupcake
+                
         [ForeignKey("CupcakeId")]
         public Cupcake? Cupcake { get; set; }
 

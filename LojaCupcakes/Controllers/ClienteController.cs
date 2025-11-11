@@ -70,7 +70,7 @@ namespace LojaCupcakes.Controllers
                     new Claim(ClaimTypes.Name, cliente.Nome),
                     new Claim(ClaimTypes.Email, cliente.Email),
                     new Claim(ClaimTypes.NameIdentifier, cliente.Id.ToString()),
-                    new Claim(ClaimTypes.Role, "Cliente") // Define o papel
+                    new Claim(ClaimTypes.Role, "Cliente") 
                 };
 
                 var claimsIdentity = new ClaimsIdentity(

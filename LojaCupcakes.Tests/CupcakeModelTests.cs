@@ -1,6 +1,6 @@
-using LojaCupcakes.Models; // Importa seu Model
-using System.ComponentModel.DataAnnotations; // Necessário para a validação
-using Xunit; // Pacote do xUnit
+using LojaCupcakes.Models; 
+using System.ComponentModel.DataAnnotations;
+using Xunit; 
 
 namespace LojaCupcakes.Tests
 {

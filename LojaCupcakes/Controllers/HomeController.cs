@@ -9,24 +9,22 @@ namespace LojaCupcakes.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly LojaDbContext _context; // Conexão com o banco
+        private readonly LojaDbContext _context; 
 
         public HomeController(LojaDbContext context)
         {
             _context = context;
         }
 
-        // Esta é a página principal (Vitrine - HU01)
+        
         public async Task<IActionResult> Index()
         {
             // Busca todos os cupcakes no banco de dados
             var cupcakes = await _context.Cupcakes.ToListAsync();
 
-            // Envia a lista de cupcakes para a View
+           
             return View(cupcakes);
         }
-
-        // (Outras páginas como Privacidade, Erro, etc.)
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

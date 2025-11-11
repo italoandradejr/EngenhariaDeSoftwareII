@@ -2,7 +2,7 @@
 using LojaCupcakes.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Authorization; // Importar
+using Microsoft.AspNetCore.Authorization; 
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
@@ -18,7 +18,7 @@ namespace LojaCupcakes.Controllers
             _context = context;
         }
 
-        // --- LOGIN DO ADMIN (HU05) ---
+        //  LOGIN DO ADMIN (HU05)
 
         [HttpGet]
         public IActionResult Login()
@@ -29,14 +29,14 @@ namespace LojaCupcakes.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(string email, string senha)
         {
-            // RN da HU05: Login fixo
+            
             if (email == "admin@cupcake.com" && senha == "admin123")
             {
                 var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.Name, "Administrador"),
                     new Claim(ClaimTypes.Email, email),
-                    new Claim(ClaimTypes.Role, "Admin") // Define a "Role" (papel)
+                    new Claim(ClaimTypes.Role, "Admin")
                 };
 
                 var claimsIdentity = new ClaimsIdentity(
@@ -59,7 +59,7 @@ namespace LojaCupcakes.Controllers
         {
             // Lista os cupcakes e pedidos (HU12)
             var cupcakes = await _context.Cupcakes.ToListAsync();
-            // (Futuramente, adicione a lista de pedidos aqui)
+           
             return View(cupcakes);
         }
 
@@ -77,7 +77,7 @@ namespace LojaCupcakes.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Nome,Sabor,Preco,Imagem")] Cupcake cupcake)
         {
-            // RN da HU10: Preço deve ser > 0 (o Model já faz isso com [Range])
+            // RN da HU10: Preço deve ser > 0
             if (ModelState.IsValid)
             {
                 _context.Add(cupcake);

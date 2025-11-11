@@ -6,7 +6,5 @@
     {
         public int Id { get; set; }
         public int Quantidade { get; set; }
-        // Não precisamos do nome ou preço, pois vamos
-        // buscá-los no banco de dados por segurança.
     }
 }

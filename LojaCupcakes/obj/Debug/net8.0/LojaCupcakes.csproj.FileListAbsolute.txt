@@ -49,3 +49,4 @@ C:\Users\italo.silva\Documents\CSharp\ProjFaculdade\LojaCupcakes\LojaCupcakes\ob
 C:\Users\italo.silva\Documents\CSharp\ProjFaculdade\LojaCupcakes\LojaCupcakes\obj\Debug\net8.0\LojaCupcakes.pdb
 C:\Users\italo.silva\Documents\CSharp\ProjFaculdade\LojaCupcakes\LojaCupcakes\obj\Debug\net8.0\LojaCupcakes.genruntimeconfig.cache
 C:\Users\italo.silva\Documents\CSharp\ProjFaculdade\LojaCupcakes\LojaCupcakes\obj\Debug\net8.0\ref\LojaCupcakes.dll
+C:\Users\italo.silva\Documents\CSharp\ProjFaculdade\LojaCupcakes\LojaCupcakes\obj\Debug\net8.0\LojaCupcakes.sourcelink.json

@@ -1,7 +1,4 @@
-﻿/* ==============================================
-   FUNÇÕES GLOBAIS
-   ============================================== */
-
+﻿
 // Função chamada pelo botão "Adicionar ao Carrinho"
 function adicionarAoCarrinho(id, nome, preco) {
     let carrinho = getCarrinho();
@@ -40,7 +37,7 @@ function atualizarIconeCarrinho() {
     let cartIcon = document.getElementById('cart-count');
     if (cartIcon) {
         cartIcon.innerText = totalItens;
-        cartIcon.style.display = totalItens > 0 ? 'inline-block' : 'none'; // 'inline-block' é melhor que 'block' para um span
+        cartIcon.style.display = totalItens > 0 ? 'inline-block' : 'none'; 
     }
 }
 

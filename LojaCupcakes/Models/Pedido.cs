@@ -10,8 +10,7 @@ namespace LojaCupcakes.Models
 
         [Required]
         public int ClienteId { get; set; }
-
-        // Propriedade de Navegação: Link para o Cliente dono do pedido
+                
         [ForeignKey("ClienteId")]
         public Cliente? Cliente { get; set; }
 
@@ -25,8 +24,7 @@ namespace LojaCupcakes.Models
 
         [StringLength(50)]
         public string Status { get; set; } = "Processando";
-
-        // Propriedade de Navegação: Um pedido tem uma lista de itens
+                
         public ICollection<ItemPedido> ItensPedido { get; set; } = new List<ItemPedido>();
     }
 }

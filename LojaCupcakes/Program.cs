@@ -1,18 +1,17 @@
 using LojaCupcakes.Data;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.EntityFrameworkCore; // Importante para o UseMySql
+using Microsoft.EntityFrameworkCore; // para o UseMySql
 
 var builder = WebApplication.CreateBuilder(args);
 
 // 1. Adiciona a conexão com o Banco de Dados
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
-// AQUI ESTÁ A MUDANÇA:
+
 builder.Services.AddDbContext<LojaDbContext>(options =>
-    // Troca de UseSqlServer para UseMySql
+    
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString))
 );
-// FIM DA MUDANÇA
 
 // 2. Adiciona os serviços do MVC
 builder.Services.AddControllersWithViews();

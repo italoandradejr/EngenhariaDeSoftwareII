@@ -1,10 +1,10 @@
 ﻿using LojaCupcakes.Data;
 using LojaCupcakes.Models;
-using LojaCupcakes.Models.ViewModels; // Importar o ViewModel
-using Microsoft.AspNetCore.Authorization; // Importar
+using LojaCupcakes.Models.ViewModels; 
+using Microsoft.AspNetCore.Authorization; 
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.Security.Claims; // Importar
+using System.Security.Claims; 
 
 namespace LojaCupcakes.Controllers
 {
@@ -17,16 +17,15 @@ namespace LojaCupcakes.Controllers
             _context = context;
         }
 
-        // --- PASSO 1: EXIBIR A PÁGINA DO CARRINHO (HU08) --- teste de commit
+        
         [HttpGet]
         public IActionResult Carrinho()
         {
-            // A view (Carrinho.cshtml) vai carregar
             // O JavaScript vai preencher os itens do localStorage
             return View();
         }
 
-        // --- PASSO 2: FINALIZAR O PEDIDO (HU03) ---
+        // --- FINALIZAR O PEDIDO (HU03) ---
         [HttpPost]
         [Authorize] // RN#1 da HU03: Só usuários logados podem finalizar
         public async Task<IActionResult> Finalizar([FromBody] List<CartItemViewModel> itensCarrinho)
@@ -77,12 +76,11 @@ namespace LojaCupcakes.Controllers
             // Salva tudo no banco
             _context.Pedidos.Add(novoPedido);
             await _context.SaveChangesAsync();
-
-            // Retorna sucesso e a URL para redirecionar
+                       
             return Ok(new { redirectUrl = Url.Action("Confirmacao") });
         }
 
-        // --- PASSO 3: PÁGINA DE CONFIRMAÇÃO ---
+        // --- PÁGINA DE CONFIRMAÇÃO ---
         [HttpGet]
         [Authorize]
         public IActionResult Confirmacao()
