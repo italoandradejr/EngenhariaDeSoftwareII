@@ -123,3 +123,4 @@ C:\Users\italo.silva\Documents\CSharp\ProjFaculdade\LojaCupcakes\LojaCupcakes.Te
 C:\Users\italo.silva\Documents\CSharp\ProjFaculdade\LojaCupcakes\LojaCupcakes.Tests\obj\Debug\net8.0\LojaCupcakes.Tests.pdb
 C:\Users\italo.silva\Documents\CSharp\ProjFaculdade\LojaCupcakes\LojaCupcakes.Tests\obj\Debug\net8.0\LojaCupcakes.Tests.genruntimeconfig.cache
 C:\Users\italo.silva\Documents\CSharp\ProjFaculdade\LojaCupcakes\LojaCupcakes.Tests\obj\Debug\net8.0\ref\LojaCupcakes.Tests.dll
+C:\Users\italo.silva\Documents\CSharp\ProjFaculdade\LojaCupcakes\LojaCupcakes.Tests\obj\Debug\net8.0\LojaCupcakes.Tests.sourcelink.json
